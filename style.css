@@ -1,0 +1,153 @@
+.app {
+  font-family: "arial";
+}
+
+ul {
+  font-family: "arial";
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  height: 100px;
+  top: 0;
+  list-style-type: none;
+  margin: -8px 0px -21px 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-bottom: 1px solid gray;
+}
+
+li {
+  float: left;
+}
+
+.logo {
+  margin-left: 20px;
+  margin-right: 200px;
+}
+li a {
+  margin-top: 10px;
+  font-size: 40px;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.user-details {
+  margin-top: 20px;
+  position: fixed;
+  right: 0;
+}
+
+.login {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.register {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+li a:hover {
+  background-color: gray;
+}
+
+.main-container {
+  display: flex;
+  padding: 0px 50px 0px 0px;
+}
+.main-container h1 {
+  font-size: 100px;
+}
+
+.communities-container input {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.communities-container h2 {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.communities-container {
+  position: fixed;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: -10px;
+  padding: 20px;
+  width: 360px;
+  height: 87vh;
+  border: solid 1px black;
+  overflow-y: auto;
+}
+
+.classes-list a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  height: 50px;
+}
+
+.classes-list a:hover {
+  background-color: gray;
+}
+.groups-list a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  height: 50px;
+}
+
+.groups-list a:hover {
+  background-color: gray;
+}
+
+.recent-posts-container {
+  padding: 20px;
+}
+
+.post {
+  border: solid 1px black;
+  padding: 20px;
+  margin: 10px 10px 20px 10px;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.post p {
+  margin: 6px;
+}
+
+.center-container h1 {
+  margin-top: -50px;
+}
+
+.center-container {
+  margin-left: 700px;
+  padding: 100px;
+  width: 1000px;
+
+  justify-content: center;
+}
+
+.study-button {
+  width: 400px;
+  height: 50px;
+  border-radius: 40px;
+  background: lightblue;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: -20px;
+  margin-bottom: 00px;
+}
+
+.study-button:hover {
+  background-color: rgb(182, 224, 238);
+}
