@@ -6,7 +6,7 @@ ul {
   font-family: "arial";
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  height: 100px;
+  height: 80px;
   top: 0;
   list-style-type: none;
   margin: -8px 0px -21px 0px;
@@ -21,8 +21,9 @@ li {
 }
 
 .logo {
+  margin-top: 0px;
   margin-left: 20px;
-  margin-right: 200px;
+  margin-right: 430px;
 }
 li a {
   margin-top: 10px;
@@ -33,9 +34,34 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+.search-container input {
+  background-color: rgb(240, 240, 240);
+  border: none;
+  font-size: 30px;
+  width: 1000px;
+  height: 40px;
+  padding: 6px 6px 6px 50px;
+  margin-top: 14px;
+  font-size: 17px;
+  border-radius: 30px;
+}
+
+.search-container i {
+  transform: translate(40px, -2px);
+}
+
+.search-container button {
+  width: 40px;
+  height: 40px;
+  padding: 6px 10px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
 
 .user-details {
-  margin-top: 20px;
+  margin-top: 4px;
   position: fixed;
   right: 0;
 }
@@ -66,6 +92,8 @@ li a:hover {
   height: 40px;
   font-size: 20px;
   margin-bottom: 20px;
+  border-radius: 6px;
+  padding-left: 10px;
 }
 
 .communities-container h2 {
@@ -108,11 +136,13 @@ li a:hover {
 }
 
 .recent-posts-container {
+  font-size: 20px;
   padding: 20px;
 }
 
 .post {
   border: solid 1px black;
+  border-radius: 6px;
   padding: 20px;
   margin: 10px 10px 20px 10px;
   max-height: 300px;
@@ -135,6 +165,10 @@ li a:hover {
   justify-content: center;
 }
 
+.center-container h2 {
+  margin-left: 10px;
+}
+
 .study-button {
   width: 400px;
   height: 50px;
@@ -143,11 +177,24 @@ li a:hover {
   font-size: 20px;
   color: white;
   font-weight: bold;
-  margin-left: 30px;
-  margin-top: -20px;
-  margin-bottom: 00px;
+  margin-top: 20px;
 }
 
 .study-button:hover {
   background-color: rgb(182, 224, 238);
+}
+
+.right-container {
+  margin-left: -80px;
+  margin-top: 204px;
+  padding: 20px;
+  width: 400px;
+  height: 240px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.right-container .border {
+  border-top: 0.5px solid gray;
+  margin-bottom: 4px;
 }

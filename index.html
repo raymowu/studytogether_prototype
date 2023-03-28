@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -11,9 +15,18 @@
     <div class="app">
       <ul class="navbar">
         <li><a class="logo">Study Together</a></li>
-        <li><a href="#group">Groups</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
+        <li>
+          <div class="search-container">
+            <form>
+              <i class="fa fa-search" size="large"></i>
+              <input
+                class="navbar-search"
+                type="text"
+                placeholder="Find a study group..."
+              />
+            </form>
+          </div>
+        </li>
         <div class="user-details">
           <li><a class="register">Register</a></li>
           <li><a class="login">Login</a></li>
@@ -39,8 +52,8 @@
           </div>
         </div>
         <div class="center-container">
-          <button class="study-button">Find a Study Group</button>
           <div class="recent-posts-container">
+            <h2>Recent Posts</h2>
             <div class="post">
               <p>Johnny Appleseed</p>
               <p>EECS 101</p>
@@ -111,6 +124,12 @@
               </p>
             </div>
           </div>
+        </div>
+        <div class="right-container">
+          <h2>Home</h2>
+          <div class="border"></div>
+          <button class="study-button">Find a Study Group</button>
+          <button class="study-button">Create Post</button>
         </div>
       </div>
     </div>
