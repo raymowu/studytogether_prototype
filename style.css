@@ -23,7 +23,7 @@ li {
 .logo {
   margin-top: 0px;
   margin-left: 20px;
-  margin-right: 430px;
+  margin-right: 360px;
 }
 li a {
   margin-top: 10px;
@@ -107,28 +107,18 @@ li a:hover {
   margin-top: 20px;
   margin-right: 50px;
   margin-left: -10px;
-  padding: 20px;
-  width: 360px;
+  padding: 20px 20px 20px 30px;
+  width: 340px;
   height: 87vh;
   border: solid 1px black;
   overflow-y: auto;
 }
 
-.classes-list a {
-  color: black;
-  display: block;
-  text-decoration: none;
-  height: 50px;
-}
-
-.classes-list a:hover {
-  background-color: gray;
-}
 .groups-list a {
   color: black;
   display: block;
   text-decoration: none;
-  height: 50px;
+  height: 44px;
 }
 
 .groups-list a:hover {
@@ -158,7 +148,7 @@ li a:hover {
 }
 
 .center-container {
-  margin-left: 700px;
+  margin-left: 620px;
   padding: 100px;
   width: 1000px;
 
@@ -189,7 +179,7 @@ li a:hover {
   margin-top: 204px;
   padding: 20px;
   width: 400px;
-  height: 240px;
+  height: 300px;
   border: 1px solid black;
   border-radius: 6px;
 }
@@ -197,4 +187,13 @@ li a:hover {
 .right-container .border {
   border-top: 0.5px solid gray;
   margin-bottom: 4px;
+}
+
+.gray-bold {
+  font-weight: bold;
+  color: black;
+}
+
+.green {
+  color: rgb(9, 148, 9);
 }
