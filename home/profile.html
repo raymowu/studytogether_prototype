@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="app">
+       <!-- NAVIGATION SCREEN--> 
+      <ul class="navbar">
+        <li><a class="logo">Study Together</a></li>
+        <li>
+          <div class="search-container">
+            <form>
+              <i class="fa fa-search" size="large"></i>
+              <input
+                class="navbar-search"
+                type="text"
+                placeholder="Find a study group..."
+              />
+            </form>
+          </div>
+        </li>
+        <div class="user-details">
+            <li><a href= "index.html" class="profile">Home</a></li>
+            <li><a href= "profile.html" class="profile">Profile</a></li>
+            <li><a class="register">Register</a></li>
+            <li><a class="login">Login</a></li>
+        </div>
+      </ul>
+
+      <!-- PROFILE SECTION-->
+      <div class="profile-container">
+          <div class="upper-profile">
+                <div class="profile-inner-left">
+                        <img class="profile-img" src="images/temp.jpeg" alt="Profile Image">
+                </div>
+                <div class="profile-inner-right">
+                    <div class="personal-information">
+                        <h3>Personal Information</h3>
+                        <ul class="profile-list">
+                            <li><span>Name : </span>Sally Pear</li>
+                            <li><span>Pronouns : </span>She/Her</li>
+                            <li><span>Age : </span>21 Years</li>
+                            <li><span>Email : </span>temporary@temp.com</li>
+                            <li><span>Address : </span>Ann Arbor, MI</li>
+                        </ul>
+                    </div>
+                </div>
+          </div>
+          <div class="lower-profile">
+                <h3>About Me</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo architecto
+                    officiis tempora commodi veritatis, nulla laboriosam earum soluta cum
+                    eligendi nostrum error excepturi explicabo, corrupti temporibus
+                    perspiciatis ab blanditiis. Voluptatem!</p>
+                <div class="personal-information class-info">
+                    <div class= "class-con">
+                            <h3>Enrolled Classes</h3>
+                            <ul class="profile-list">
+                                <li>EECS 101</li>
+                                <li>EECS 493</li>
+                                <li>BIO 101</li>
+                                <li>MATH 101</li>
+                                <li>ASTRO 101</li>
+                            </ul>
+                    </div>
+
+                    <div class= "class-con">
+                            <h3>Current Groups</h3>
+                            <ul class="profile-list">
+                                <li>EECS 101 Study Group</li>
+                                <li>EECS 493 Exam Prep</li>
+                                <li>BIO 101 Exam Help</li>
+                                <li>BIO HW Help</li>
+                                <li>ASTRO 101 HW Group</li>
+                            </ul>
+                    </div>
+                
+
+                </div>
+          </div> 
+
+          <button class="study-button">Edit Profile</button>
+    
+        </div>
+  </body>
+</html>
