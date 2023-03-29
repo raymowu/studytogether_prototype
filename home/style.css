@@ -403,7 +403,7 @@ li a:hover {
 }
 
 .friends {
-  margin-left: 100px;
+  margin-left: 630px;
   margin-right: 100px;
   display: flex;
   object-fit: contain;
@@ -415,6 +415,7 @@ li a:hover {
   padding: 5px;
   display: flex;
   align-items: center;
+  margin-right: 69px;
 }
 
 .message {
