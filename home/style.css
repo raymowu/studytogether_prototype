@@ -219,23 +219,23 @@ li a:hover {
   margin-bottom: 4px;
 }
 
-.upper-profile{
+.upper-profile {
   margin-top: 50px;
   display: flex;
   border-bottom: 1px solid #eeeeee;
   height: 300px;
 }
 
-.lower-profile{
+.lower-profile {
   display: inline-block;
 }
 
-.profile-inner-left{  
+.profile-inner-left {
   width: 300px;
   height: 300px;
 }
 
-.profile-inner-right{ 
+.profile-inner-right {
   min-height: 250px;
 }
 
@@ -253,12 +253,11 @@ li a:hover {
   padding-bottom: 12px;
 }
 
-.personal-information ul li{
+.personal-information ul li {
   float: none;
 }
 
-
-.profile-list{
+.profile-list {
   float: none;
   position: left;
   height: 100%;
@@ -270,16 +269,16 @@ li a:hover {
   border: none !important;
 }
 
-.class-info{
+.class-info {
   position: left;
   display: flex;
 }
 
-.personal-information .class-info{
+.personal-information .class-info {
   margin-left: 0px;
 }
 
-.class-con{
+.class-con {
   display: inline-block;
   margin-right: 50px;
   margin-bottom: 50px;
@@ -307,6 +306,6 @@ li a:hover {
   padding: 10px;
 }
 
-.form{
+.form {
   margin: auto;
 }
