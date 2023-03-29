@@ -40,7 +40,7 @@ li a {
   background-color: rgb(240, 240, 240);
   border: none;
   font-size: 30px;
-  width: 1000px;
+  width: 500px;
   height: 40px;
   padding: 6px 6px 6px 50px;
   margin-top: 14px;
@@ -67,6 +67,11 @@ li a {
   margin-top: 4px;
   position: fixed;
   right: 0;
+}
+
+.search {
+  font-size: 20px;
+  margin-right: 120px;
 }
 
 .login {
@@ -157,7 +162,7 @@ li a:hover {
 }
 
 .center-container {
-  margin-left: 400px;
+  margin-left: 250px;
   margin-top: -80px;
   padding: 100px;
   width: 700px;
@@ -278,4 +283,30 @@ li a:hover {
   display: inline-block;
   margin-right: 50px;
   margin-bottom: 50px;
+}
+
+/* Search css */
+.advanced-search {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+.advanced-search p {
+  height: 20px;
+}
+
+/* Login css */
+.login-container {
+  font-size: 34px;
+  margin: auto;
+  margin-top: 108px;
+  width: 50%;
+  border: 3px solid rgb(160, 189, 212);
+  padding: 10px;
+}
+
+.form{
+  margin: auto;
 }
