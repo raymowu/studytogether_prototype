@@ -60,12 +60,12 @@ ul.navbar {
 .user-details {
   margin-top: 4px;
   position: fixed;
+  top: 0;
   right: 0;
 }
 
 .search {
   font-size: 20px;
-  margin-right: 120px;
 }
 
 .login {
