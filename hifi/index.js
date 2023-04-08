@@ -1,7 +1,6 @@
 // POSTS GLOBAL VAR
 let posts =
-  '<ul class="search-results" id="search-results"> \
-<li> \
+  '<li> \
   <div class="post"> \
     <h4>ECON 101 HOMEWORK HELP</h4>\
     <p>Johnny Appleseed</p>\
@@ -72,13 +71,12 @@ let posts =
     <p>CHEM 101</p>\
     <p>\
       Spot of come to ever hand as lady meet on. Delicate contempt received two yet advanced. Gentleman as belonging he\
-      commanded believing dejection in by. On no am winding chicken so behaved. Its preserved sex enjoyment new way behaviour.\
+      commanded believing dejection in by. On no am winding chicken so behaved. Its preserved enjoyment new way behaviour.\
       Him yet devonshire celebrated especially. Unfeeling one provision are smallness resembled repulsive.\
     </p>\
   </div>\
-</li>\
-</ul>';
-document.getElementById("display-posts").innerHTML = posts;
+</li>';
+document.getElementById("search-results").innerHTML = posts;
 // SEARCH FUNCTIONALITY
 
 const searchGroup = () => {
