@@ -16,7 +16,7 @@
     <div class="app">
       <ul class="navbar">
         <li><a class="logo">Study Together</a></li>
-        <li>
+        <!-- <li>
           <div class="search-container">
             <form>
               <i class="fa fa-search" size="large"></i>
@@ -27,9 +27,9 @@
               />
             </form>
           </div>
-        </li>
+        </li> -->
         <div class="user-details">
-          <li><a href="search.html" class="search">Advanced Search</a></li>
+          <!-- <li><a href="search.html" class="search">Advanced Search</a></li> -->
           <li><a href="index.html" class="profile">Home</a></li>
           <li><a href="profile.html" class="profile">Profile</a></li>
           <li><a class="register">Register</a></li>
@@ -66,52 +66,51 @@
         <div class="center-container">
           <div class="advanced-search">
             <div>
-              <p>Group Name:</p>
+              <h4>Group Name:</h4>
               <input
                 type="text"
                 onkeyup="searchGroup()"
+                placeholder="EECS Study Group..."
                 id="groupname-search"
-                placeholder="Search for group name..."
               />
             </div>
             <div>
-              <p>Class:</p>
+              <h4>Class:</h4>
               <input
                 type="text"
                 onkeyup="searchClass()"
-                placeholder="Search for a class..."
+                placeholder="EECS 101..."
                 id="class-search"
               />
             </div>
             <div>
-              <p>Key Words:</p>
+              <h4>Key Words:</h4>
               <input
                 type="text"
                 onkeyup="searchKeyWords()"
-                placeholder="Key words"
+                placeholder="Exam review..."
                 id="keywords-search"
               />
             </div>
             <div>
-              <p>Availability:</p>
-              <label for="day1"> Monday</label>
+              <h4>Availability:</h4>
               <input type="checkbox" id="day1" name="day1" value="monday" />
-              <label for="day2"> Tuesday</label>
+              <label for="day1"> Monday</label>
               <input type="checkbox" id="day2" name="day2" value="tuesday" />
-              <label for="day3"> Wednesday</label>
+              <label for="day2"> Tuesday</label>
               <input type="checkbox" id="day3" name="day3" value="wednesday" />
-              <label for="day4"> Thursday</label>
+              <label for="day3"> Wednesday</label>
               <input type="checkbox" id="day4" name="day4" value="thursday" />
-              <label for="day5"> Friday</label>
+              <label for="day4"> Thursday</label>
               <input type="checkbox" id="day5" name="day5" value="friday" />
-              <label for="day6"> Saturday</label>
+              <label for="day5"> Friday</label>
               <input type="checkbox" id="day6" name="day6" value="saturday" />
-              <label for="day7"> Sunday</label>
+              <label for="day6"> Saturday</label>
               <input type="checkbox" id="day7" name="day7" value="sunday" />
-              <button onclick="submitSearch()">Search</button>
+              <label for="day7"> Sunday</label>
             </div>
           </div>
-          <div class="recent-posts-container">
+          <div class="posts-container">
             <h2>Search Results</h2>
             <ul class="search-results" id="search-results">
               <li>
@@ -215,8 +214,8 @@
             ><span class="green">Looking for group</span>
           </p>
           <div class="border"></div>
-          <button class="study-button">Find a Study Group</button>
-          <button class="study-button">Create Post</button>
+          <!-- <button class="study-button">Find a Study Group</button> -->
+          <button class="study-button">Create Study Group</button>
         </div>
       </div>
     </div>

@@ -132,9 +132,13 @@ li a:hover {
   background-color: gray;
 }
 
-.recent-posts-container {
+.posts-container {
   font-size: 16px;
   padding: 20px;
+}
+
+.posts-container h2 {
+  transform: translateX(40px);
 }
 
 .post {
@@ -186,6 +190,7 @@ li a:hover {
 .right-container {
   font-size: 14px;
   margin-top: 108px;
+  margin-left: 32px;
   padding: 20px;
   width: 320px;
   height: 300px;
@@ -282,12 +287,22 @@ li a:hover {
 .advanced-search {
   border: 1px solid black;
   border-radius: 6px;
-  padding: 5px;
-  margin-top: 50px;
+  padding: 20px;
+  margin-top: 88px;
+  margin-left: 70px;
+  width: 700px;
+  height: 300px;
 }
 
-.advanced-search p {
-  height: 20px;
+.advanced-search h4 {
+  height: 2px;
+}
+.advanced-search input[type="text"] {
+  width: 300px;
+  height: 24px;
+  padding-left: 5px;
+  border-radius: 6px;
+  border: 1px solid black;
 }
 
 .search-results {
