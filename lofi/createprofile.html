@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="app">
+       <!-- NAVIGATION SCREEN--> 
+      <ul class="navbar">
+        <li><a class="logo">Study Together</a></li>
+        <li>
+          <div class="search-container">
+            <form action="results.html">
+              <i class="fa fa-search" size="large"></i>
+              <input
+                class="navbar-search"
+                type="text"
+                placeholder="Find a study group..."
+              />
+            </form>
+          </div>
+        </li>
+        <div class="user-details">
+            <li><a href="search.html" class="search">Advanced Search</a></li>
+            <li><a href="index.html" class="profile">Home</a></li>
+            <li><a href="profile.html" class="profile">Profile</a></li>
+            <li><a class="register">Register</a></li>
+            <li><a href="login.html" class="login">Login</a></li>
+        </div>
+      </ul>
+
+      <!-- PROFILE SECTION-->
+      <div class="profile-container">
+        <h1>Creating Profile</h1>
+          <div class="upper-profile">
+                <div class="profile-inner-left">
+                        <img class="profile-img" src="images/temp.jpeg" alt="Profile Image">
+                </div>
+                <div class="profile-inner-right">
+                    <div class="personal-information">
+                        <h3>Personal Information</h3>
+                        <ul class="profile-list">
+                          <li><span>Name : </span><input type="text" value=""></input></li>
+                            <li><span>Pronouns : </span><input type="text" value=""></input></li>
+                            <li><span>Age : </span><input type="text" value=""></input></li>
+                            <li><span>Email : </span><input type="text" value=""></input></li>
+                            <li><span>Address : </span><input type="text" value=""></input></li>
+                        </ul>
+                    </div>
+                </div>
+          </div>
+          <div class="lower-profile">
+                <h3>About Me</h3>
+                <textarea rows="4" cols="50" class="edit-about"></textarea>
+                <div class="personal-information class-info">
+                    <div class= "class-con">
+                            <h3>Enrolled Classes</h3>
+                            <ul class="profile-list">
+
+                                <li><input type="text" placeholder="Add new class"></li>
+                            </ul>
+                    </div>
+
+
+                
+
+                </div>
+          </div> 
+
+          
+        </div>
+        <button class="study-button">Create Profile</button>
+  </body>
+</html>
