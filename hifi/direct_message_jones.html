@@ -63,7 +63,7 @@
         </div>
 
         <div class="center-container">
-          <button class="message-button-three"><a href="direct_message_all.html">Return to Messages</a></button>
+          <a href="direct_message_all.html"><button class="message-button-three">Return to Messages</button></a>
           <span class="friend-two">
             <img
               src="./images/user-profile.png"
@@ -82,26 +82,30 @@
           </span>
           <div class="your-conversation">Your Conversation:</div>
 
-          <div class="conversation">
+          <div id="conversation">
             <div class="user-conversation-message">
-              <div class="message-time">Tuesday, 12:05 PM</div>
+              <div class="message-time">4/6/2023</div>
               Hey Bob! Did you finish the bio homework yet?
             </div>
             <div class="other-conversation-message">
-              <div class="message-time">Yesterday, 11:09 AM</div>
+              <div class="message-time">4/7/2023</div>
               No I haven't. Do you want to meet up so that we can work on it together?
             </div>
             <div class="user-conversation-message">
-              <div class="message-time">Yesterday, 11:10 AM</div>
+              <div class="message-time">4/7/2023</div>
               I am available all day tomorrow. We can also study for our exam that we will have in a few months.
             </div>
           </div>
 
           <div>
-            <input class="filter-two" type="text" placeholder="New message..." />
+            <form>
+              <input class="filter-two" type="text" id="inputText" name="inputText">
+              <button class="send-message" type="button" onclick=addNewMessage()>Send Message</button>
+            </form> 
           </div>
         </div>
       </div>
     </div>
   </body>
+  <script src="direct_messages.js"></script>
 </html>

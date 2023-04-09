@@ -550,6 +550,18 @@ body {
   width: 512px;
 }
 
+.send-message {
+  align-self: center;
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
 .message-time {
   font-size: 12px;
   color: gray;

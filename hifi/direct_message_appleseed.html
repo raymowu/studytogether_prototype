@@ -63,7 +63,7 @@
         </div>
 
         <div class="center-container">
-          <button class="message-button-three"><a href="direct_message_all.html">Return to Messages</a></button>
+          <a href="direct_message_all.html"><button class="message-button-three">Return to Messages</button></a>
           <span class="friend-two">
             <img
               src="./images/user-profile.png"
@@ -82,33 +82,37 @@
           </span>
           <div class="your-conversation">Your Conversation:</div>
 
-          <div class="conversation">
+          <div id="conversation">
             <div class="user-conversation-message">
-              <div class="message-time">Tuesday, 12:05 PM</div>
+              <div class="message-time">4/6/2023</div>
               Hey Johnny! I see that you are interested in studying for the upcoming EECS
               493 Exam. I am also looking for people to study with and was wondering if
               you wanted to form a group?
             </div>
             <div class="other-conversation-message">
-              <div class="message-time">Yesterday, 11:09 AM</div>
+              <div class="message-time">4/6/2023</div>
               Hey User! I am interested, when do you want to meet?
             </div>
             <div class="other-conversation-message">
-              <div class="message-time">Yesterday, 11:10 AM</div>
+              <div class="message-time">4/6/2023</div>
               I am available all day tomorrow. Are you going to be available? If so, what
               times and where would you like to meet on campus?
             </div>
             <div class="user-conversation-message">
-              <div class="message-time">Today, 4:04 PM</div>
+              <div class="message-time">4/7/2023</div>
               Hey Johnny do you still want to study later?
             </div>
           </div>
 
           <div>
-            <input class="filter-two" type="text" placeholder="New message..." />
+            <form>
+              <input class="filter-two" type="text" id="inputText" name="inputText">
+              <button class="send-message" type="button" onclick=addNewMessage()>Send Message</button>
+            </form>  
           </div>
         </div>
       </div>
     </div>
   </body>
+  <script src="direct_messages.js"></script>
 </html>
