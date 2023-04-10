@@ -59,10 +59,13 @@
         </div>
 
         <div class="center-container">
-          <h2>Recent Posts</h2>
-          <div class="posts-container">
-            <ul class="search-results" id="search-results"></ul>
-          </div>
+          <h2>Create Study Group</h2>
+          <form id="createpost-container" class="createpost-container">
+            <input type="text" placeholder="Group Name" id="createpost-groupname" />
+            <input type="text" placeholder="Class" id="createpost-class" />
+            <textarea class="createpost-body" id="createpost-body"></textarea>
+            <button class="createpost-button" type="submit">Post</button>
+          </form>
         </div>
 
         <div class="right-container">
@@ -73,7 +76,6 @@
           <a href="search.html">
             <button class="study-button">Find a Study Group</button>
           </a>
-          <a href="createpost.html"><button class="study-button">Create Study Group</button></a>
 
           <a href="direct_message_all.html">
             <button class="study-button">Your Messages</button>
