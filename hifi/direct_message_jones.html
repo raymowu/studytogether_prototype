@@ -4,10 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>direct_message</title>
   </head>
   <body>
@@ -15,7 +12,7 @@
       <ul class="navbar">
         <li><a class="logo">Study Together</a></li>
         <li>
-          <div class="search-container">
+          <!-- <div class="search-container">
             <form action="results.html">
               <i class="fa fa-search" size="large"></i>
               <input
@@ -24,7 +21,7 @@
                 placeholder="Find a study group..."
               />
             </form>
-          </div>
+          </div> -->
         </li>
         <div class="user-details">
           <li><a href="search.html" class="search">Advanced Search</a></li>
@@ -65,18 +62,12 @@
         <div class="center-container">
           <a href="direct_message_all.html"><button class="message-button-three">Return to Messages</button></a>
           <span class="friend-two">
-            <img
-              src="./images/user-profile.png"
-              alt="user-profile"
-              class="user-profile-image"
-            />
+            <img src="./images/user-profile.png" alt="user-profile" class="user-profile-image" />
             <span>
               <span id="name">Bob Jones</span>
               <div>Active yesterday</div>
               <div>Similar Classes: BIO 101</div>
-              <div>
-                Similar Groups: BIO 101 Exam Help, BIO HW Help
-              </div>
+              <div>Similar Groups: BIO 101 Exam Help, BIO HW Help</div>
               <div>Similar Contacts: Mason Smith</div>
             </span>
           </span>
@@ -99,9 +90,9 @@
 
           <div>
             <form>
-              <input class="filter-two" type="text" id="inputText" name="inputText">
-              <button class="send-message" type="button" onclick=addNewMessage()>Send Message</button>
-            </form> 
+              <input class="filter-two" type="text" id="inputText" name="inputText" />
+              <button class="send-message" type="button" onclick="addNewMessage()">Send Message</button>
+            </form>
           </div>
         </div>
       </div>

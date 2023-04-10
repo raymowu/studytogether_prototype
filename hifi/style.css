@@ -1,5 +1,6 @@
 .app {
   font-family: "arial";
+  background-color: #dae0e6;
 }
 
 ul.navbar {
@@ -13,7 +14,7 @@ ul.navbar {
   padding: 0;
   overflow: hidden;
   background-color: #ffffff;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid lightgray;
 }
 
 .navbar li {
@@ -82,8 +83,12 @@ ul.navbar {
   margin-right: 10px;
 }
 
+li a {
+  border: 1px solid transparent;
+}
+
 li a:hover {
-  background-color: gray;
+  border: 1px solid gray;
 }
 
 .main-container {
@@ -94,42 +99,60 @@ li a:hover {
   font-size: 100px;
 }
 
-.communities-container input {
+.communities-container input[type="text"] {
+  margin-top: 20px;
+  margin-left: 16px;
   width: 200px;
   height: 30px;
   font-size: 20px;
   margin-bottom: 20px;
-  border-radius: 6px;
+  border-radius: 2px;
   padding-left: 10px;
+  border: 1px solid lightgray;
+  background-color: rgb(235, 235, 235);
 }
 
+.communities-container input[type="text"]:hover {
+  border: 1px solid black;
+  background-color: white;
+}
 .communities-container h2 {
   margin-bottom: 20px;
   font-size: 12px;
+  padding: 0px 20px;
 }
 
 .communities-container {
+  font-family: "verdana";
+  background-color: white;
   position: fixed;
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 20px;
   margin-right: 50px;
   margin-left: -10px;
-  padding: 20px 20px 20px 30px;
-  width: 220px;
+  width: 250px;
   height: 1118px;
-  border: solid 1px black;
+  border: solid 1px lightgray;
   overflow-y: auto;
 }
 
+.groups-list {
+  list-style: none;
+  padding-left: 0px;
+}
+
 .groups-list a {
+  padding-left: 20px;
+  padding-top: auto;
   color: black;
   display: block;
   text-decoration: none;
-  height: 44px;
+  height: 40px;
 }
 
 .groups-list a:hover {
-  background-color: gray;
+  background-color: lightgray;
+  border: solid 1px transparent;
 }
 
 .posts-container {
@@ -141,7 +164,8 @@ li a:hover {
 }
 
 .post {
-  border: solid 1px black;
+  background-color: white;
+  border: solid 1px lightgray;
   border-radius: 6px;
   padding: 20px;
   margin: 10px 10px 20px 10px;
@@ -150,8 +174,27 @@ li a:hover {
   overflow: hidden;
 }
 
+.post-meta {
+  white-space: nowrap;
+  margin-top: -10px;
+  font-size: 12px;
+  color: gray;
+}
+
+.post h4 {
+  font-size: 20px;
+  margin-bottom: -2px;
+  margin-top: -2px;
+}
+
+.post-meta span {
+  font-weight: bold;
+  color: black;
+}
+
 .post p {
-  margin: 6px;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .center-container h1 {
@@ -180,7 +223,7 @@ li a:hover {
   font-size: 16px;
   color: white;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 14px;
   margin-left: 30px;
 }
 
@@ -189,13 +232,14 @@ li a:hover {
 }
 
 .right-container {
+  background-color: white;
   font-size: 14px;
   margin-top: 108px;
   margin-left: 32px;
   padding: 20px;
   width: 320px;
   height: 300px;
-  border: 1px solid black;
+  border: 1px solid lightgray;
   border-radius: 6px;
 }
 
@@ -215,6 +259,7 @@ li a:hover {
 
 /*Profile page css*/
 .profile-container {
+  background-color: white;
   border-top: 0.5px solid gray;
   margin-bottom: 4px;
 }
@@ -286,7 +331,9 @@ li a:hover {
 
 /* Search css */
 .advanced-search {
-  border: 1px solid black;
+  background-color: white;
+
+  border: 1px solid lightgray;
   border-radius: 6px;
   padding: 20px;
   margin-top: 36px;
@@ -299,10 +346,16 @@ li a:hover {
   height: 2px;
 }
 .advanced-search input[type="text"] {
+  background-color: rgb(235, 235, 235);
   width: 300px;
   height: 24px;
   padding-left: 5px;
   border-radius: 6px;
+  border: 1px solid lightgray;
+}
+
+.advanced-search input[type="text"]:hover {
+  background-color: white;
   border: 1px solid black;
 }
 
@@ -312,6 +365,7 @@ li a:hover {
 
 /* Login css */
 .login-container {
+  background-color: white;
   font-size: 34px;
   margin: auto;
   margin-top: 108px;
@@ -348,7 +402,7 @@ li a:hover {
 }
 .logo {
   margin-left: 20px;
-  font-size: 35px;
+  font-size: 50px;
 }
 
 .flex-container {
@@ -380,19 +434,8 @@ li a:hover {
   padding-left: 10px;
 }
 
-.groups-list a {
-  color: black;
-  display: block;
-  text-decoration: none;
-  height: 44px;
-}
-
-.groups-list a:hover {
-  background-color: gray;
-}
-
 .search {
-  align-self: center;
+  /* align-self: center;
   width: 300px;
   height: 30px;
   font-size: 20px;
@@ -400,7 +443,7 @@ li a:hover {
   margin-top: 40px;
   border-radius: 6px;
   padding-left: 10px;
-  margin-left: 400px;
+  margin-left: 400px; */
 }
 
 .your-contacts {
@@ -431,6 +474,7 @@ li a:hover {
 }
 
 .friend {
+  background-color: white;
   border: 1px solid gray;
   padding: 5px;
   display: flex;
@@ -439,6 +483,7 @@ li a:hover {
 }
 
 .message {
+  background-color: white;
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 100px;
