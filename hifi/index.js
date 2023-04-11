@@ -18,10 +18,10 @@ let posts =
   <p class="post-meta"><span>EECS 101 </span>&#x2022 posted by Bob Joe</p>\
   <h4>EECS Study Group</h4>\
     <p>\
-      No comfort do written conduct at prevent manners on. Celebrated contrasted discretion him sympathize her collecting\
-      occasional. Do answered bachelor occasion in of offended no concerns. Supply worthy warmth branch of no ye. Voice tried\
-      known to as my to. Though wished merits or be. Alone visit use these smart rooms ham. No waiting in on enjoyed placing\
-      it inquiry.\
+    Hello everyone! I am looking for a group of individuals who want to \
+    form a study group for tests and assigments in EECS 101. I am free \
+    mostly in the evenings and open to meet at other times. I would prefer to meet \
+    on zoom but can meet in person but open to meeting in person.\
     </p>\
   </div>\
 </li>\
@@ -30,10 +30,9 @@ let posts =
   <p class="post-meta"><span>ASTRO 101 </span>&#x2022 posted by John Smith</p>\
   <h4>Astronomy Review</h4>\
     <p>\
-      Am no an listening depending up believing. Enough around remove to barton agreed regret in or it. Advantage mr estimable\
-      be commanded provision. Year well shot deny shew come now had. Shall downs stand marry taken his for out. Do related mr\
-      account brandon an up. Wrong for never ready ham these witty him. Our compass see age uncivil matters weather forbade\
-      her minutes. Ready how but truth son new under.\
+      Hello everybody! I am looking for a few people to review for our upcoming exam and to work on the current homework\
+      assignments together. I am free every Monday, Wednesday, and Friday and am pretty flexible. Send me a message \
+      if you are interested. Thanks!\
     </p>\
   </div>\
 </li>\
@@ -42,10 +41,10 @@ let posts =
   <p class="post-meta"><span>BIO 202 </span>&#x2022 posted by Jane Doe</p>\
   <h4>Bio Final Exam Review</h4>\
     <p>\
-      Breakfast agreeable incommode departure it an. By ignorant at on wondered relation. Enough at tastes really so cousin am\
-      of. Extensive therefore supported by extremity of contented. Is pursuit compact demesne invited elderly be. View him she\
-      roof tell her case has sigh. Moreover is possible he admitted sociable concerns. By in cold no less been sent hard hill.\
-    </p>\
+    Hello! I am looking to form a group of individuals who want to study \
+    together for the upcoming final exam in BIO 202. My avaliability is \
+    mostly in the afternoons although I am flexible. I would prefer to meet in\
+    person in the Shapiro library.</p>\
   </div>\
 </li>\
 <li>\
@@ -53,9 +52,10 @@ let posts =
   <p class="post-meta"><span>MATH 101 </span>&#x2022 posted by Rachel White</p>\
   <h4>Calculus Hw HELP</h4>\
     <p>\
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo architecto officiis tempora commodi veritatis, nulla\
-      laboriosam earum soluta cum eligendi nostrum error excepturi explicabo, corrupti temporibus perspiciatis ab blanditiis.\
-      Voluptatem!\
+    Hello! I am looking to form a group of individuals who want to study \
+    together for the homework asssignments in MATH 101. My avaliability is \
+    mostly in the evenings although I am flexible. I would prefer to meet in\
+    person in the Hatcher library.\
     </p>\
   </div>\
 </li>\
@@ -64,12 +64,10 @@ let posts =
   <p class="post-meta"><span>CHEM 101 </span>&#x2022 posted by Sam Johnson</p>\
   <h4>Periodic Table Trivia Group</h4>\
     <p>\
-    Attention science enthusiasts! Are you a fan of the periodic table?\
-    Do you love to learn interesting facts about the elements that make up our world?\
-    Then join us every Thursday for our Periodic Table Trivia Group!\
-    Our group meets weekly to discuss all things related to the periodic table.\
-    We share fun facts, engage in friendly debates, and test our knowledge with challenging trivia questions.\
-    Whether you`re a chemistry student or simply have a passion for science, this is the perfect opportunity to expand your knowledge and connect with like-minded individuals.\
+    Hi! I am looking for a group of individuals who want to \
+    work together for the Periodic Table Trivia assignment in CHEM 101. I am free \
+    mostly in the evenings and unfortunately cannot meet at other times. I would prefer to meet \
+    on zoom but can meet in person but open to meeting in person.\
     </p>\
   </div>\
 </li>';
