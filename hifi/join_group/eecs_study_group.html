@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>direct_message</title>
+  </head>
+  <body>
+    <div class="app">
+      <ul class="navbar">
+        <li><a class="logo">Study Together</a></li>
+        <li>
+          <!-- <div class="search-container">
+            <form action="results.html">
+              <i class="fa fa-search" size="large"></i>
+              <input
+                class="navbar-search"
+                type="text"
+                placeholder="Find a study group..."
+              />
+            </form>
+          </div> -->
+        </li>
+        <div class="user-details">
+            <li><a href="../search.html" class="search">Advanced Search</a></li>
+            <li><a href="../index.html" class="profile">Home</a></li>
+            <li><a href="../profile.html" class="profile">Profile</a></li>
+            <li><a href="../login.html" class="login">Logout</a></li>
+        </div>
+      </ul>
+
+
+      <div class="main-container">
+
+        <div class="communities-container">
+          <input type="text" onkeyup="searchCommunities()" placeholder="Filter" id="communities-search" />
+          <ul class="groups-list" id="groups-list">
+            <h2>YOUR GROUPS</h2>
+            <li><a href="../eecs_101_study_group.html">EECS 101 Study Group</a></li>
+            <li><a href="../eecs_493_group.html">EECS 493 Exam Prep</a></li>
+            <li><a href = "../bio_101_group.html">BIO 101 Exam Help</a></li>
+            <li><a href="../bio_hw_group.html">BIO HW Help</a></li>
+            <li><a href="../astro_101_group.html">ASTRO 101 HW Group</a></li>
+            <h2>CONTACTS</h2>
+            <li><a href="../direct_message_appleseed.html">Johnny Appleseed</a></li>
+            <li><a href="../direct_message_jones.html">Bob Jones</a></li>
+            <li><a href="../direct_message_daniels.html">Roger Daniels</a></li>
+            <li><a href="../direct_message_smith.html">Mason Smith</a></li>
+          </ul>
+        </div>
+        
+        <div class="center-container">
+            <div class="post">
+                <p class="post-meta"><span>EECS 101 </span>&#x2022 posted by Bob Joe</p>
+                <h4>EECS Study Group</h4>
+                  <p>
+                    Hello everyone! I am looking for a group of individuals who want to form a study group for tests and assigments in EECS 101. I am free mostly in the evenings and open to meet at other times. I would prefer to meet on zoom but can meet in person but open to meeting in person.
+                  </p>
+                </div>
+                <button id="message-button" class="message-button" onclick="changeStatusJoin()">Request Join Group</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../group_request.js"></script>
+  <script src="../index.js"></script>
+</html>

@@ -11,6 +11,7 @@ let posts =
       efficient scale with returns favorable in the long run. I would be down to meet Mondays and Wednesdays at the library in\
       room 1111.\
     </p>\
+    <a href="join_group/econ_homework_help.html"><button class="message-button-group">Go To Group</button></a>\
   </div>\
 </li>\
 <li>\
@@ -23,6 +24,7 @@ let posts =
     mostly in the evenings and open to meet at other times. I would prefer to meet \
     on zoom but can meet in person but open to meeting in person.\
     </p>\
+    <a href="join_group/eecs_study_group.html"><button class="message-button-group">Go To Group</button></a>\
   </div>\
 </li>\
 <li>\
@@ -34,6 +36,7 @@ let posts =
       assignments together. I am free every Monday, Wednesday, and Friday and am pretty flexible. Send me a message \
       if you are interested. Thanks!\
     </p>\
+    <a href="join_group/astro_review.html"><button class="message-button-group">Go To Group</button></a>\
   </div>\
 </li>\
 <li>\
@@ -45,6 +48,7 @@ let posts =
     together for the upcoming final exam in BIO 202. My avaliability is \
     mostly in the afternoons although I am flexible. I would prefer to meet in\
     person in the Shapiro library.</p>\
+    <a href="join_group/bio_exam_review.html"><button class="message-button-group">Go To Group</button></a>\
   </div>\
 </li>\
 <li>\
@@ -57,6 +61,7 @@ let posts =
     mostly in the evenings although I am flexible. I would prefer to meet in\
     person in the Hatcher library.\
     </p>\
+    <a href="join_group/calc_hw_help.html"><button class="message-button-group">Go To Group</button></a>\
   </div>\
 </li>\
 <li>\
@@ -69,6 +74,7 @@ let posts =
     mostly in the evenings and unfortunately cannot meet at other times. I would prefer to meet \
     on zoom but can meet in person but open to meeting in person.\
     </p>\
+    <a href="join_group/chem_101.html"><button class="message-button-group">Go To Group</button></a>\
   </div>\
 </li>';
 let defaultPosts = localStorage.getItem("posts");
