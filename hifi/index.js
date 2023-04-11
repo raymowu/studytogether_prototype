@@ -64,9 +64,12 @@ let posts =
   <p class="post-meta"><span>CHEM 101 </span>&#x2022 posted by Sam Johnson</p>\
   <h4>Periodic Table Trivia Group</h4>\
     <p>\
-      Spot of come to ever hand as lady meet on. Delicate contempt received two yet advanced. Gentleman as belonging he\
-      commanded believing dejection in by. On no am winding chicken so behaved. Its preserved enjoyment new way behaviour.\
-      Him yet devonshire celebrated especially. Unfeeling one provision are smallness resembled repulsive.\
+    Attention science enthusiasts! Are you a fan of the periodic table?\
+    Do you love to learn interesting facts about the elements that make up our world?\
+    Then join us every Thursday for our Periodic Table Trivia Group!\
+    Our group meets weekly to discuss all things related to the periodic table.\
+    We share fun facts, engage in friendly debates, and test our knowledge with challenging trivia questions.\
+    Whether you`re a chemistry student or simply have a passion for science, this is the perfect opportunity to expand your knowledge and connect with like-minded individuals.\
     </p>\
   </div>\
 </li>';
