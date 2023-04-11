@@ -28,25 +28,24 @@
           </div>
         </li>
         <div class="user-details">
-          <li><a href="createprofile.html" class="register">Register</a></li>
         </div>
       </ul>
 
       <div class = "login-container">
-        <form action="index.html" class = "form">
-            <label for="fname">Username:</label><br>
-            <input type="text" id="fname" name="fname" value=""><br>
-            <label for="lname">Password:</label><br>
-            <input type="text" id="lname" name="lname" value=""><br><br>
-            <input type="submit" value="Submit">
+        <form action="index.html" id = "FORM">
+            Username:<br>
+            <input type="text" class="inputField" /><br>
+            Password:<br>
+            <input type="text" class="input2field" /><br><br>
         </form> 
       </div>
       <br>
       <br>
       <div>
-        <a href="index.html"><button class="login-button">Login in HI-FI</button></a>
+        <button class="login-button" onclick="checkLogin()">Login in</button>
       </div>
       
     </div>
   </body>
+  <script src="login.js"></script>
 </html>
