@@ -3,17 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>direct_message</title>
   </head>
   <body>
     <div class="app">
       <ul class="navbar">
         <li><a class="logo">Study Together</a></li>
-        <!-- <li>
-          <div class="search-container">
+        <li>
+          <!-- <div class="search-container">
             <form action="results.html">
               <i class="fa fa-search" size="large"></i>
               <input
@@ -22,16 +23,19 @@
                 placeholder="Find a study group..."
               />
             </form>
-          </div>
-        </li> -->
+          </div> -->
+        </li>
         <div class="user-details">
-          <li><a href="search.html" class="search">Advanced Search</a></li>
-          <li><a href="index.html" class="profile">Home</a></li>
-          <li><a href="profile.html" class="profile">Profile</a></li>
-          <li><a href="login.html" class="login">Logout</a></li>
+            <li><a href="search.html" class="search">Advanced Search</a></li>
+            <li><a href="index.html" class="profile">Home</a></li>
+            <li><a href="profile.html" class="profile">Profile</a></li>
+            <li><a href="login.html" class="login">Logout</a></li>
         </div>
       </ul>
+
+
       <div class="main-container">
+
         <div class="communities-container">
           <input type="text" onkeyup="searchCommunities()" placeholder="Filter" id="communities-search" />
           <ul class="groups-list" id="groups-list">
@@ -50,33 +54,23 @@
             <li><a href="direct_message_smith.html">Mason Smith</a></li>
           </ul>
         </div>
-
+        
         <div class="center-container">
-          <h2>Create Study Group</h2>
-          <form id="createpost-container" class="createpost-container">
-            <input type="text" placeholder="Group Name" id="createpost-groupname" />
-            <input type="text" placeholder="Class" id="createpost-class" />
-            <textarea class="createpost-body" id="createpost-body"></textarea>
-            <button class="createpost-button" type="submit">Post</button>
-          </form>
-        </div>
-
-        <div class="right-container">
-          <h2>Sally Pear</h2>
-          <p><span class="gray-bold">Classes: </span>EECS101, EECS493, BIO101, ASTRO101</p>
-          <p><span class="gray-bold">Status: </span><span class="green">Looking for group</span></p>
-          <div class="border"></div>
-          <a href="search.html">
-            <button class="study-button">Find a Study Group</button>
-          </a>
-
-          <a href="direct_message_all.html">
-            <button class="study-button">Your Messages</button>
-          </a>
+            <div class="post">
+                <p class="post-meta"><span>EECS 101 </span>&#x2022 posted by Bob Joe</p>
+                <h4>EECS Study Group</h4>
+                  <p>
+                    Hello everyone! I am looking for a group of individuals who want to 
+                    form a study group for tests and assigments in EECS 101. I am free 
+                    mostly in the evenings and open to meet at other times. I would prefer to meet 
+                    on zoom but can meet in person but open to meeting in person.
+                  </p>
+                </div>
+                <button id="message-button" class="message-button" onclick="changeStatus()">Request Leave Group</button>
         </div>
       </div>
     </div>
   </body>
-  <script src="createpost.js"></script>
+  <script src="group_request.js"></script>
   <script src="index.js"></script>
 </html>

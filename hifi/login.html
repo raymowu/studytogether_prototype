@@ -15,38 +15,26 @@
     <div class="app">
       <ul class="navbar">
         <li><a class="logo">Study Together</a></li>
-        <li>
-          <div class="search-container">
-            <form action="results.html">
-              <i class="fa fa-search" size="large"></i>
-              <input
-                class="navbar-search"
-                type="text"
-                placeholder="Find a study group..."
-              />
-            </form>
-          </div>
-        </li>
         <div class="user-details">
-          <li><a href="createprofile.html" class="register">Register</a></li>
+          <li><a href="createprofile.html" class="login">Register</a></li>
         </div>
       </ul>
 
       <div class = "login-container">
-        <form action="index.html" class = "form">
-            <label for="fname">Username:</label><br>
-            <input type="text" id="fname" name="fname" value=""><br>
-            <label for="lname">Password:</label><br>
-            <input type="text" id="lname" name="lname" value=""><br><br>
-            <input type="submit" value="Submit">
+        <form action="index.html" id = "FORM">
+            Username:<br>
+            <input type="text" class="inputField" /><br>
+            Password:<br>
+            <input type="text" class="input2field" /><br><br>
         </form> 
       </div>
       <br>
       <br>
       <div>
-        <a href="index.html"><button class="login-button">Login in HI-FI</button></a>
+        <button class="login-button" onclick="checkLogin()">Login</button>
       </div>
       
     </div>
   </body>
+  <script src="login.js"></script>
 </html>

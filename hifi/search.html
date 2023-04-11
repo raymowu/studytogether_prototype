@@ -33,22 +33,14 @@
       </ul>
       <div class="main-container">
         <div class="communities-container">
-          <input type="text" placeholder="Filter" />
-          <h2>YOUR CLASSES</h2>
+          <input type="text" onkeyup="searchCommunities()" placeholder="Filter" id="communities-search" />
           <ul class="groups-list" id="groups-list">
-            <li><a>EECS 101</a></li>
-            <li><a>EECS 493</a></li>
-            <li><a>BIO 101</a></li>
-            <li><a>MATH 101</a></li>
-            <li><a>ASTRO 101</a></li>
-
             <h2>YOUR GROUPS</h2>
-
-            <li><a>EECS 101 Study Group</a></li>
-            <li><a>EECS 493 Exam Prep</a></li>
-            <li><a>BIO 101 Exam Help</a></li>
-            <li><a>BIO HW Help</a></li>
-            <li><a>ASTRO 101 HW Group</a></li>
+            <li><a href="eecs_101_study_group.html">EECS 101 Study Group</a></li>
+            <li><a href="eecs_493_group.html">EECS 493 Exam Prep</a></li>
+            <li><a href = "bio_101_group.html">BIO 101 Exam Help</a></li>
+            <li><a href="bio_hw_group.html">BIO HW Help</a></li>
+            <li><a href="astro_101_group.html">ASTRO 101 HW Group</a></li>
             <h2>CONTACTS</h2>
 
             <li><a href="direct_message_appleseed.html">Johnny Appleseed</a></li>
@@ -71,23 +63,6 @@
             <div>
               <h4>Key Words:</h4>
               <input type="text" onkeyup="searchKeyWords()" placeholder="Exam review..." id="keywords-search" />
-            </div>
-            <div>
-              <h4>Availability:</h4>
-              <input type="checkbox" id="day1" name="day1" value="monday" />
-              <label for="day1"> Monday</label>
-              <input type="checkbox" id="day2" name="day2" value="tuesday" />
-              <label for="day2"> Tuesday</label>
-              <input type="checkbox" id="day3" name="day3" value="wednesday" />
-              <label for="day3"> Wednesday</label>
-              <input type="checkbox" id="day4" name="day4" value="thursday" />
-              <label for="day4"> Thursday</label>
-              <input type="checkbox" id="day5" name="day5" value="friday" />
-              <label for="day5"> Friday</label>
-              <input type="checkbox" id="day6" name="day6" value="saturday" />
-              <label for="day6"> Saturday</label>
-              <input type="checkbox" id="day7" name="day7" value="sunday" />
-              <label for="day7"> Sunday</label>
             </div>
           </div>
           <h2>Search Results</h2>

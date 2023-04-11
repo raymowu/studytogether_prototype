@@ -674,3 +674,12 @@ body {
 .createpost-container button:hover {
   background-color: rgb(182, 224, 238);
 }
+
+.message-button-group {
+  width: 140px;
+  height: 40px;
+  border-radius: 40px;
+  background: lightpink;
+  color: white;
+  font-weight: bold;
+}
