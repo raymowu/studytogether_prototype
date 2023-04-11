@@ -83,12 +83,14 @@ ul.navbar {
   margin-right: 10px;
 }
 
-li a {
+.navbar li a {
   border: 1px solid transparent;
+  text-decoration: none;
+  color: black;
 }
 
-li a:hover {
-  border: 1px solid gray;
+.navbar li a:hover {
+  background-color: lightgray;
 }
 
 .main-container {
@@ -148,11 +150,11 @@ li a:hover {
   display: block;
   text-decoration: none;
   height: 40px;
+  border: solid 1px transparent;
 }
 
 .groups-list a:hover {
   background-color: lightgray;
-  border: solid 1px transparent;
 }
 
 .posts-container {
@@ -172,6 +174,11 @@ li a:hover {
   width: 700px;
   max-height: 300px;
   overflow: hidden;
+}
+
+.posts-container li a {
+  text-decoration: none;
+  color: black;
 }
 
 .post-meta {

@@ -2,6 +2,7 @@
 let posts =
   '<li> \
   <div class="post"> \
+  <a href="join_group/econ_homework_help.html">\
   <p class="post-meta"><span>ECON 101 </span>&#x2022 posted by Johnny Appleseed</p>\
   <h4>ECON HOMEWORK HELP</h4>\
     <p>\
@@ -11,10 +12,11 @@ let posts =
       efficient scale with returns favorable in the long run. I would be down to meet Mondays and Wednesdays at the library in\
       room 1111.\
     </p>\
-    <a href="join_group/econ_homework_help.html"><button class="message-button-group">Go To Group</button></a>\
+    </a>\
   </div>\
 </li>\
 <li>\
+<a href="join_group/eecs_study_group.html">\
   <div class="post">\
   <p class="post-meta"><span>EECS 101 </span>&#x2022 posted by Bob Joe</p>\
   <h4>EECS Study Group</h4>\
@@ -24,10 +26,11 @@ let posts =
     mostly in the evenings and open to meet at other times. I would prefer to meet \
     on zoom but can meet in person but open to meeting in person.\
     </p>\
-    <a href="join_group/eecs_study_group.html"><button class="message-button-group">Go To Group</button></a>\
   </div>\
+  </a>\
 </li>\
 <li>\
+<a href="join_group/astro_review.html">\
   <div class="post">\
   <p class="post-meta"><span>ASTRO 101 </span>&#x2022 posted by John Smith</p>\
   <h4>Astronomy Review</h4>\
@@ -36,10 +39,11 @@ let posts =
       assignments together. I am free every Monday, Wednesday, and Friday and am pretty flexible. Send me a message \
       if you are interested. Thanks!\
     </p>\
-    <a href="join_group/astro_review.html"><button class="message-button-group">Go To Group</button></a>\
   </div>\
+  </a>\
 </li>\
 <li>\
+<a href="join_group/bio_exam_review.html">\
   <div class="post">\
   <p class="post-meta"><span>BIO 202 </span>&#x2022 posted by Jane Doe</p>\
   <h4>Bio Final Exam Review</h4>\
@@ -48,10 +52,11 @@ let posts =
     together for the upcoming final exam in BIO 202. My avaliability is \
     mostly in the afternoons although I am flexible. I would prefer to meet in\
     person in the Shapiro library.</p>\
-    <a href="join_group/bio_exam_review.html"><button class="message-button-group">Go To Group</button></a>\
-  </div>\
+    </div>\
+    </a>\
 </li>\
 <li>\
+<a href="join_group/calc_hw_help.html">\
   <div class="post">\
   <p class="post-meta"><span>MATH 101 </span>&#x2022 posted by Rachel White</p>\
   <h4>Calculus Hw HELP</h4>\
@@ -61,10 +66,11 @@ let posts =
     mostly in the evenings although I am flexible. I would prefer to meet in\
     person in the Hatcher library.\
     </p>\
-    <a href="join_group/calc_hw_help.html"><button class="message-button-group">Go To Group</button></a>\
   </div>\
+  </a>\
 </li>\
 <li>\
+<a href="join_group/chem_101.html">\
   <div class="post">\
   <p class="post-meta"><span>CHEM 101 </span>&#x2022 posted by Sam Johnson</p>\
   <h4>Periodic Table Trivia Group</h4>\
@@ -74,8 +80,8 @@ let posts =
     mostly in the evenings and unfortunately cannot meet at other times. I would prefer to meet \
     on zoom but can meet in person but open to meeting in person.\
     </p>\
-    <a href="join_group/chem_101.html"><button class="message-button-group">Go To Group</button></a>\
   </div>\
+  </a>\
 </li>';
 let defaultPosts = localStorage.getItem("posts");
 
