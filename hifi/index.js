@@ -76,7 +76,7 @@ if (null === defaultPosts) {
   localStorage.setItem("posts", posts);
 }
 
-console.log(localStorage.getItem("posts"));
+// console.log(localStorage.getItem("posts"));
 
 localStorage.getItem("posts") && document.getElementById("search-results")
   ? (document.getElementById("search-results").innerHTML = localStorage.getItem("posts"))
