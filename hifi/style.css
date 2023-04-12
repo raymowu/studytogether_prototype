@@ -3,6 +3,10 @@
   background-color: #dae0e6;
 }
 
+body {
+  background-color: #dae0e6;
+}
+
 ul.navbar {
   font-family: "arial";
   position: -webkit-sticky; /* Safari */
@@ -10,8 +14,7 @@ ul.navbar {
   height: 80px;
   top: 0;
   list-style-type: none;
-  margin: -8px 0px -21px 0px;
-  padding: 0;
+  margin: -8px -8px -21px -8px; /* weird navbar shortening fix */
   overflow: hidden;
   background-color: #ffffff;
   border-bottom: 1px solid lightgray;
@@ -408,7 +411,6 @@ ul.navbar {
   font-size: 20px;
 }
 .logo {
-  margin-left: 20px;
   font-size: 50px;
 }
 
@@ -691,7 +693,6 @@ body {
   font-weight: bold;
 }
 
-
 .message-button-1 {
   width: 110px;
   height: 35px;
@@ -700,7 +701,6 @@ body {
   color: white;
   font-weight: bold;
   margin-top: 5px;
-  
 }
 
 .message-button-1:hover {
@@ -714,7 +714,6 @@ body {
   color: white;
   font-weight: bold;
   margin-top: 5px;
-  
 }
 
 .message-button-2:hover {
@@ -728,7 +727,6 @@ body {
   color: white;
   font-weight: bold;
   margin-top: 5px;
-  
 }
 
 .message-button-3:hover {
@@ -742,7 +740,6 @@ body {
   color: white;
   font-weight: bold;
   margin-top: 5px;
-  
 }
 
 .message-button-4:hover {
@@ -756,7 +753,6 @@ body {
   color: white;
   font-weight: bold;
   margin-top: 5px;
-  
 }
 
 .message-button-5:hover {
@@ -770,7 +766,6 @@ body {
   color: white;
   font-weight: bold;
   margin-top: 5px;
-  
 }
 
 .message-button-6:hover {
