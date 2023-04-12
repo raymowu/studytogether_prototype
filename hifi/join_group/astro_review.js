@@ -1,22 +1,22 @@
-localStorage.getItem("astro")
-  ? (document.getElementById("astro").innerHTML = localStorage.getItem("astro"))
+localStorage.getItem("message-button-1")
+  ? (document.getElementById("message-button-1").innerHTML =
+      localStorage.getItem("message-button-1"))
   : false;
 
-
-function changeStatusJoin() {
-  let button = document.getElementsByClassName("astro")[0];
+function changeStatusJoin1() {
+  let button = document.getElementsByClassName("message-button-1")[0];
   let text = button.textContent;
   console.log(text);
   if (text == "Request Join Group") {
-    document.getElementsByClassName("astro")[0].textContent = "Undo Request";
+    document.getElementsByClassName("message-button-1")[0].textContent = "Undo Request";
     let new_button = "Undo Request";
-    localStorage.setItem("astro", new_button);
+    localStorage.setItem("message-button-1", new_button);
     alert("You have requested to join this group, to undo this action press Undo Request");
   } else {
     alert("You have sucesfully undone your request to join this group");
-    document.getElementsByClassName("astro")[0].textContent = "Request Join Group";
+    document.getElementsByClassName("message-button-1")[0].textContent = "Request Join Group";
     let new_button = "Request Join Group";
-    localStorage.setItem("astro", new_button);
+    localStorage.setItem("message-button-1", new_button);
     //alert("You have requested to leave this group, to undo this action press Undo Request")
   }
 }
