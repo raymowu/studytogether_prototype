@@ -690,3 +690,89 @@ body {
   color: white;
   font-weight: bold;
 }
+
+
+.message-button-1 {
+  width: 110px;
+  height: 35px;
+  border-radius: 40px;
+  background: lightpink;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  
+}
+
+.message-button-1:hover {
+  background-color: rgb(233, 213, 216);
+}
+.message-button-2 {
+  width: 110px;
+  height: 35px;
+  border-radius: 40px;
+  background: lightpink;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  
+}
+
+.message-button-2:hover {
+  background-color: rgb(233, 213, 216);
+}
+.message-button-3 {
+  width: 110px;
+  height: 35px;
+  border-radius: 40px;
+  background: lightpink;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  
+}
+
+.message-button-3:hover {
+  background-color: rgb(233, 213, 216);
+}
+.message-button-4 {
+  width: 110px;
+  height: 35px;
+  border-radius: 40px;
+  background: lightpink;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  
+}
+
+.message-button-4:hover {
+  background-color: rgb(233, 213, 216);
+}
+.message-button-5 {
+  width: 110px;
+  height: 35px;
+  border-radius: 40px;
+  background: lightpink;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  
+}
+
+.message-button-5:hover {
+  background-color: rgb(233, 213, 216);
+}
+.message-button-6 {
+  width: 110px;
+  height: 35px;
+  border-radius: 40px;
+  background: lightpink;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  
+}
+
+.message-button-6:hover {
+  background-color: rgb(233, 213, 216);
+}
