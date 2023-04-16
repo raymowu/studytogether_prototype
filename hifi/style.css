@@ -462,6 +462,17 @@ ul.navbar {
   width: 75px;
 }
 
+.add-contact {
+  margin-top: 20px;
+  margin-left: 70px;
+  background-color: white;
+  width: 250px;
+  height: 24px;
+  padding-left: 5px;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+}
+
 .friends {
   margin-left: 600px;
   margin-right: 100px;
