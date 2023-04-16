@@ -4,13 +4,16 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>direct_message</title>
   </head>
   <body>
     <div class="app">
       <ul class="navbar">
-        <li><a class="logo">Study Together</a></li>
+        <li><a class="logo" href="index.html">Study Together</a></li>
         <li>
           <!-- <div class="search-container">
             <form action="results.html">
@@ -33,13 +36,17 @@
 
       <div class="main-container">
         <div class="communities-container">
-          <input type="text" onkeyup="searchCommunities()" placeholder="Filter" id="communities-search" />
+          <input
+            type="text"
+            onkeyup="searchCommunities()"
+            placeholder="Filter"
+            id="communities-search"
+          />
           <ul class="groups-list" id="groups-list">
-
             <h2>YOUR GROUPS</h2>
             <li><a href="eecs_101_study_group.html">EECS 101 Study Group</a></li>
             <li><a href="eecs_493_group.html">EECS 493 Exam Prep</a></li>
-            <li><a href = "bio_101_group.html">BIO 101 Exam Help</a></li>
+            <li><a href="bio_101_group.html">BIO 101 Exam Help</a></li>
             <li><a href="bio_hw_group.html">BIO HW Help</a></li>
             <li><a href="astro_101_group.html">ASTRO 101 HW Group</a></li>
             <h2>CONTACTS</h2>
@@ -52,7 +59,9 @@
         </div>
 
         <div class="center-container">
-          <a href="direct_message_all.html"><button class="message-button-three">Return to Messages</button></a>
+          <a href="direct_message_all.html"
+            ><button class="message-button-three">Return to Messages</button></a
+          >
           <span class="friend-two">
             <img src="./images/user-profile.png" alt="user-profile" class="user-profile-image" />
             <span>
@@ -68,8 +77,9 @@
           <div id="conv-appleseed">
             <div class="user-conversation-message">
               <div class="message-time">4/6/2023</div>
-              Hey Johnny! I see that you are interested in studying for the upcoming EECS 493 Exam. I am also looking for people to study
-              with and was wondering if you wanted to form a group?
+              Hey Johnny! I see that you are interested in studying for the upcoming EECS 493 Exam.
+              I am also looking for people to study with and was wondering if you wanted to form a
+              group?
             </div>
             <div class="other-conversation-message">
               <div class="message-time">4/6/2023</div>
@@ -77,7 +87,8 @@
             </div>
             <div class="other-conversation-message">
               <div class="message-time">4/6/2023</div>
-              I am available all day tomorrow. Are you going to be available? If so, what times and where would you like to meet on campus?
+              I am available all day tomorrow. Are you going to be available? If so, what times and
+              where would you like to meet on campus?
             </div>
             <div class="user-conversation-message">
               <div class="message-time">4/7/2023</div>
@@ -88,7 +99,9 @@
           <div>
             <form>
               <input class="filter-two" type="text" id="inputText" name="inputText" />
-              <button class="send-message" type="button" onclick="addNewMessageAppleseed()">Send Message</button>
+              <button class="send-message" type="button" onclick="addNewMessageAppleseed()">
+                Send Message
+              </button>
             </form>
           </div>
         </div>
