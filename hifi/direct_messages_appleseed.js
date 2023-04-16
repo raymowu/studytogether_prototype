@@ -2,6 +2,10 @@ localStorage.getItem("conv-appleseed")
   ? (document.getElementById("conv-appleseed").innerHTML = localStorage.getItem("conv-appleseed"))
   : false;
 
+function enterKeyPressed(event) {
+  event.key === "Enter" && addNewMessageAppleseed();
+}
+
 function addNewMessageAppleseed() {
   const inputText = document.getElementById("inputText").value;
   var date = new Date().toLocaleDateString();
@@ -11,4 +15,5 @@ function addNewMessageAppleseed() {
   document.getElementById("conv-appleseed").appendChild(newMessage);
   let conv = document.getElementById("conv-appleseed").innerHTML;
   localStorage.setItem("conv-appleseed", conv);
+  document.getElementById("inputText").value = "";
 }

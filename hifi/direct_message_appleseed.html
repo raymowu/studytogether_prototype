@@ -72,7 +72,6 @@
               <div>Similar Contacts: Roger Daniels</div>
             </span>
           </span>
-          <div class="your-conversation">Your Conversation:</div>
 
           <div id="conv-appleseed">
             <div class="user-conversation-message">
@@ -97,12 +96,16 @@
           </div>
 
           <div>
-            <form>
-              <input class="filter-two" type="text" id="inputText" name="inputText" />
-              <button class="send-message" type="button" onclick="addNewMessageAppleseed()">
-                Send Message
-              </button>
-            </form>
+            <input
+              class="filter-two"
+              type="text"
+              id="inputText"
+              name="inputText"
+              onkeydown="enterKeyPressed(event)"
+            />
+            <button class="send-message" type="button" onclick="addNewMessageAppleseed()">
+              Send Message
+            </button>
           </div>
         </div>
       </div>

@@ -1,4 +1,10 @@
-localStorage.getItem("conv-daniels") ? (document.getElementById("conv-daniels").innerHTML = localStorage.getItem("conv-daniels")) : false;
+localStorage.getItem("conv-daniels")
+  ? (document.getElementById("conv-daniels").innerHTML = localStorage.getItem("conv-daniels"))
+  : false;
+
+function enterKeyPressed(event) {
+  event.key === "Enter" && addNewMessageDaniels();
+}
 
 function addNewMessageDaniels() {
   const inputText = document.getElementById("inputText").value;
@@ -9,4 +15,5 @@ function addNewMessageDaniels() {
   document.getElementById("conv-daniels").appendChild(newMessage);
   let conv = document.getElementById("conv-daniels").innerHTML;
   localStorage.setItem("conv-daniels", conv);
+  document.getElementById("inputText").value = "";
 }

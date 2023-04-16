@@ -79,7 +79,13 @@
 
           <div>
             <form>
-              <input class="filter-two" type="text" id="inputText" name="inputText" />
+              <input
+                class="filter-two"
+                type="text"
+                id="inputText"
+                name="inputText"
+                onkeydown="enterKeyPressed(event)"
+              />
               <button class="send-message" type="button" onclick="addNewMessageDaniels()">
                 Send Message
               </button>

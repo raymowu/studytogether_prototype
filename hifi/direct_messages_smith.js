@@ -1,4 +1,10 @@
-localStorage.getItem("conv-smith") ? (document.getElementById("conv-smith").innerHTML = localStorage.getItem("conv-smith")) : false;
+localStorage.getItem("conv-smith")
+  ? (document.getElementById("conv-smith").innerHTML = localStorage.getItem("conv-smith"))
+  : false;
+
+function enterKeyPressed(event) {
+  event.key === "Enter" && addNewMessageSmith();
+}
 
 function addNewMessageSmith() {
   const inputText = document.getElementById("inputText").value;
@@ -9,4 +15,5 @@ function addNewMessageSmith() {
   document.getElementById("conv-smith").appendChild(newMessage);
   let conv = document.getElementById("conv-smith").innerHTML;
   localStorage.setItem("conv-smith", conv);
+  document.getElementById("inputText").value = "";
 }

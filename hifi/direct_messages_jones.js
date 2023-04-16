@@ -1,4 +1,10 @@
-localStorage.getItem("conv-jones") ? (document.getElementById("conv-jones").innerHTML = localStorage.getItem("conv-jones")) : false;
+localStorage.getItem("conv-jones")
+  ? (document.getElementById("conv-jones").innerHTML = localStorage.getItem("conv-jones"))
+  : false;
+
+function enterKeyPressed(event) {
+  event.key === "Enter" && addNewMessageJones();
+}
 
 function addNewMessageJones() {
   const inputText = document.getElementById("inputText").value;
@@ -9,4 +15,5 @@ function addNewMessageJones() {
   document.getElementById("conv-jones").appendChild(newMessage);
   let conv = document.getElementById("conv-jones").innerHTML;
   localStorage.setItem("conv-jones", conv);
+  document.getElementById("inputText").value = "";
 }
