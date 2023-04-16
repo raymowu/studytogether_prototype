@@ -771,3 +771,72 @@ body {
 .message-button-6:hover {
   background-color: rgb(233, 213, 216);
 }
+
+.message-button-astro-101 {
+  width: 110px;
+  height: 35px;
+  border-radius: 40px;
+  background: lightpink;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.message-button-astro-101:hover {
+  background-color: rgb(233, 213, 216);
+}
+
+.message-button-bio-101 {
+  width: 110px;
+  height: 35px;
+  border-radius: 40px;
+  background: lightpink;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.message-button-bio-101:hover {
+  background-color: rgb(233, 213, 216);
+}
+
+.bio-hw {
+  width: 110px;
+  height: 35px;
+  border-radius: 40px;
+  background: lightpink;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.bio-hw:hover {
+  background-color: rgb(233, 213, 216);
+}
+
+.eecs-493 {
+  width: 110px;
+  height: 35px;
+  border-radius: 40px;
+  background: lightpink;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.eecs-493:hover {
+  background-color: rgb(233, 213, 216);
+}
+.eecs-101 {
+  width: 110px;
+  height: 35px;
+  border-radius: 40px;
+  background: lightpink;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.eecs-101:hover {
+  background-color: rgb(233, 213, 216);
+}
