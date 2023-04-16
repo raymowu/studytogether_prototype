@@ -760,8 +760,6 @@ body {
   height: 30px;
   border-radius: 20px;
   border: 1px solid black;
-  margin-left: 200px;
-  transform: translateY(-82px);
 }
 .back-button:hover {
   background-color: rgb(182, 224, 238);
